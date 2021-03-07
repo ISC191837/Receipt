@@ -17,6 +17,7 @@ namespace Receipt
             InitializeComponent();
             labelName.Text = name;
             labelHoursWorked.Text = hoursWorked.ToString();
+            labelSalaryPerHour.Text = salaryPerHour.ToString();
             labelExtraHours.Text = extraHours.ToString();
             labelSubtotal.Text = subtotal.ToString();
             labelTax.Text = tax;
